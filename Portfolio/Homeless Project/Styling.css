@@ -1,0 +1,37 @@
+body {
+    background-color: bisque;
+    font-family:monospace;
+}
+.logo {
+    text-align:center;
+    font-size: 3em;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMPURUnUCNIhA3rBzHPuAG7dbwPYxgJ3zkJYo3fkzVCFSo05zwTA);
+    height: 150px;
+    color:cadetblue;
+}
+.Nav {
+    text-align: center;
+    color: black;
+    padding: 10px;
+    font-size: 2em;  
+    Border: 2px solid black;
+   
+}
+h1, h2, h3, h4, h5, h6 {
+    color:cadetblue;
+    text-align: center;
+}
+
+a {
+     text-decoration: none;
+    color: cadetblue;
+}
+a:hover {
+	color:black;
+	font-weight: bold;
+	size: 4em;
+}
+
+div.body {
+    text-align: center;
+}

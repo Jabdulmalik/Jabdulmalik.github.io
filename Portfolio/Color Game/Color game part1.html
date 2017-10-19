@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>The Color Game</title>
+		<meta name="description" content="Week 2 Assignment">
+		<meta name="author" content="Jamela Abdul-Malik">
+	</head>
+	<body onload="do_game()">
+		<script>
+			var target;
+			var colors = ["aliceblue", "bisque", "coral", "indigo", "lavender", "maroon", "sandybrown", "teal"];
+			var guess_input;
+			var finished = false;
+			
+			function do_game() {
+				 target = colors[Math.floor(Math.random() * 8)];
+				 alert(target);
+				
+				while (!finished) {
+					guess_input = prompt("I am thinking of one of these colors:\n\n" + colors.join(" , ") + "\n\n What color am I thinking of");
+					
+					if (guess_input == target) {
+					return true;
+				}
+				}
+				
+			}
+		</script>
+	</body>
+</html>
