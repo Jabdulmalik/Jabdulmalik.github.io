@@ -56,7 +56,6 @@ ul {
 li{
   display: inline;
   padding: 15px;
-  /*--how do i keep multi-word states from breaking to a new line in the middle--*/
 }
 
 hr{
