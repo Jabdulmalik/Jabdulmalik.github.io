@@ -1,0 +1,50 @@
+body {
+background-image: url(https://jlr7245.github.io/ga_press_release_continued/hero.png);
+}
+div.container {
+	border: 1px solid #ddd;
+	width: 70%;
+	max-width: 1000px;
+	background-color: white;
+	display: block;
+	margin: 120px auto;
+}
+img.logo {
+	max-height: 150px;
+}
+img {
+	max-width: 100%;
+}
+section {
+	float: left;
+	width: 60%;
+	display: block;
+	padding: 1%;
+}
+aside {
+	float: right;
+	width: 30%;
+	display: block;
+	padding: 3%;
+	border-left: 1px solid #ddd;
+}
+ ul.states{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    list-style: none;
+    font-family: "fira mono";
+    text-align: center;
+}
+ ul.states li {
+	color: white;
+    background-color: #CF4948;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 3px 12px;
+    margin: 5px;
+    border-bottom: 2px solid #A20101;
+}
