@@ -28,6 +28,13 @@ aside {
 	padding: 3%;
 	border-left: 1px solid #ddd;
 }
+aside h3 {
+	font-size: 1.5em;
+	color: #CF4948;
+}
+aside p {
+	font-size: 1.3em;
+}
  ul.states{
     margin: 0;
     padding: 0;
@@ -47,4 +54,22 @@ aside {
     padding: 3px 12px;
     margin: 5px;
     border-bottom: 2px solid #A20101;
+}
+aside .linktosite {
+	border-color: #CF4948;
+}
+aside .linktosite a {
+	color: #CF4948;
+	text-decoration: none;
+}
+.linktosite {
+	font-size: 1.2em;
+    border: 5px solid white;
+    background: none;
+    color: white;
+    border-radius: 20px;
+    outline: none;
+    box-shadow: none;
+    padding: 5px 10px;
+    font-family: "fira mono", monospace;
 }
