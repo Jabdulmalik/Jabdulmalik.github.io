@@ -73,3 +73,20 @@ aside .linktosite a {
     padding: 5px 10px;
     font-family: "fira mono", monospace;
 }
+.col:first-of-type {
+	border-top: 1px solid #ddd;
+}
+.col {
+	width: 30%;
+	float: left;
+	padding: 3%;
+	display: table-cell;
+	vertical-align: middle;
+}
+.col img {
+	width: 80%;
+	display: block;
+	margin: 0px auto;
+	max-width: 300px;
+}
+.clear {clear:both;}
