@@ -1,0 +1,52 @@
+.mainTextColor {
+    color: #DF744A; 
+}
+.mainBackgroundColor {
+    background-color: #FEDCD2;
+}
+.secondaryBackgroundColor {
+    background-color: #BFD8D2;
+}
+
+.logo {
+    display:inline;
+}
+.navbar {
+    margin-bottom: 0px;
+}
+nav ul {
+    display: inline-block;
+    margin: 0px 50px;
+}
+nav ul.nav li {
+    display: inline-block;
+    padding: 20px;
+    font-size: 1.5em;
+}
+img {
+    width: 100%;
+}
+.jumbotron {
+    width:100%;
+    text-align: center;
+}
+.jumbotron img {
+    width:75%;
+    display: inline-block;
+}
+.jumbotron p{
+    font-size: 2em;
+    font-weight:600;
+}
+.service img {
+    max-height: 216px;
+}
+.service h2 {
+    text-align: center;
+}
+.allservices {
+    margin: 40px;
+}
+footer {
+    height: 100px;
+}
